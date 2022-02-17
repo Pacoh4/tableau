@@ -1,0 +1,125 @@
+.table{
+
+  border-collapse: collapse;
+}
+ td{
+
+    text-align: center;
+ }
+
+ .photo {
+
+text-align: center;
+
+ }
+
+ table tr td {
+
+    line-height: 5px;
+    height: 1px;
+ }
+
+ table{
+
+    height: 20px;
+    width: 100%;
+
+ }
+.haut{
+
+    text-align: center;
+}
+.vide{
+
+    border: none;
+}
+
+.H{
+
+    background-color: #9E95C7;
+}
+
+
+
+.Li, .Na, .K, .Rb, .Cs, .Fr{
+
+    background-color: #1ff5c6;
+
+}
+.Be, .Mg, .Ca, .Sr, .Ba, .Ra{
+
+    background-color: #bbdab6;
+
+}
+
+.Sc, .Ti, .V, .Cr, .Mn, .Fe, .Co, .Ni, .Cu, .Zn, .Y, .Zr, .Nb, .Mo, .Tc, .Ru, .Rh, .Pd, .Ag, .Cd, .Lu, .Hf, .Ta, .W, .Re, .Os, .Ir, .Pt, .Au, .Hg, .Lr, .Rf, .Db, .Sg, .Bh, .Hs, .Mt, .Ds, .Rg, .Cn {
+    background-color: rgb(245, 140, 66);
+}
+
+.Al, .Ga, .In, .Tl, .Nh, .Sn, .Pb, .Fi, .Bi, .Mc, .Lv , .Fl{
+
+background-color: darkgoldenrod;
+}
+
+.B, .Si, .Ge, .As, .Sb, .Te, .Po{
+
+background-color: darkkhaki;
+}
+.F, .Ci, .Br, .I, .At, .Ts, .Cl{
+
+background-color: rgb(248, 227, 131);
+}
+
+.La, .Ce, .Pr, .Nd, .Pm, .Sm, .Eu, .Gd, .Tb, .Dy, .Ho, .Er, .Tm, .Yb {
+background-color: rgb(126, 35, 91);
+}
+
+.Ac, .Th, .Pa, .U, .Np, .Pu, .Am, .Cm, .Bk, .Cf, .Es, .Fm, .Md, .No{
+
+background-color: deeppink;
+}   
+
+.He, .Ne, .Ar, .Kr, .Xe, .Rn, .Og{
+    background-color: rgb(21, 178, 184);
+
+
+}
+
+.C, .N, .O, .P, .S, .Se{
+    background-color: rgb(180, 29, 250);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+td{
+    font-size: 0.7vw;
+    height: 4vh;
+    text-align: center;
+}
+
+img{
+    border-radius: 40px;
+}
+@media screen  and (max-width: 800px) { 
+
+    table{
+        width: 80vw;
+
+
+    }
+    td{
+        font-size: 0.8vw;
+        height: 6vh;
+        text-align: center;
+    }
+    
+}
+
+
+
+
